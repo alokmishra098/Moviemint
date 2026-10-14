@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Movies | Movie Mint</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/movie-categories.css">
+    <script src="js/script.js" defer>
+    </script>
+</head>
+<body class="movies-page">
+<header>
+<a href="index.html" class="logo">Movie <span>Mint</span>
+</a>
+<nav id="navMenu">
+</nav>
+</header>
+<main class="container movies-main">
+<div class="movies-intro">
+<span class="eyebrow">Find your next favorite</span>
+<h1>Movies</h1>
+<p>Five categories, four movie picks in each.</p>
+</div>
+<div class="category-filters" role="group" aria-label="Filter movie categories">
+    <button class="category-filter active" type="button" data-category-filter="all" aria-pressed="true">All Movies</button>
+    <button class="category-filter" type="button" data-category-filter="bollywood" aria-pressed="false">Bollywood</button>
+    <button class="category-filter" type="button" data-category-filter="hollywood" aria-pressed="false">Hollywood</button>
+    <button class="category-filter" type="button" data-category-filter="action" aria-pressed="false">Action</button>
+    <button class="category-filter" type="button" data-category-filter="comedy" aria-pressed="false">Comedy</button>
+    <button class="category-filter" type="button" data-category-filter="horror" aria-pressed="false">Horror</button>
+</div>
+<section class="movie-category" data-category="bollywood">
+<h2>Bollywood Movies</h2>
+<div class="row row-cols-2 row-cols-sm-3 row-cols-lg-4 g-3 g-lg-4">
+<div class="col">
+<a class="movie-poster-card" href="booking.html?movie=Jawan">
+<img src="img/jawam.jpg" alt="Jawan poster" loading="lazy">
+<h3>Jawan</h3>
+</a>
+</div>
+<div class="col">
+<a class="movie-poster-card" href="booking.html?movie=Drishyam%203">
+<img src="img/Drishyam 3.jpg" alt="Drishyam 3 poster" loading="lazy">
+<h3>Drishyam 3</h3>
+</a>
+</div>
+<div class="col">
+<a class="movie-poster-card" href="booking.html?movie=Hera%20Pheri">
+<img src="img/Hera pheri.jpg" alt="Hera Pheri poster" loading="lazy">
+<h3>Hera Pheri</h3>
+</a>
+</div>
+<div class="col">
+<a class="movie-poster-card" href="booking.html?movie=Hanuman%20Ansh">
+<img src="img/hanuman Ansh.jpg" alt="Hanuman Ansh poster" loading="lazy">
+<h3>Hanuman Ansh</h3>
+</a>
+</div>
+</div>
+</section>
+<section class="movie-category" data-category="hollywood">
+<h2>Hollywood Movies</h2>
+<div class="row row-cols-2 row-cols-sm-3 row-cols-lg-4 g-3 g-lg-4">
+<div class="col">
+<a class="movie-poster-card" href="booking.html?movie=Inception">
+<img src="https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg" alt="Inception poster" loading="lazy">
+<h3>Inception</h3>
+</a>
+</div>
+<div class="col">
+<a class="movie-poster-card" href="booking.html?movie=Interstellar">
+<img src="https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg" alt="Interstellar poster" loading="lazy">
+<h3>Interstellar</h3>
+</a>
+</div>
+<div class="col">
+<a class="movie-poster-card" href="booking.html?movie=The%20Dark%20Knight">
+<img src="https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg" alt="The Dark Knight poster" loading="lazy">
+<h3>The Dark Knight</h3>
+</a>
+</div>
+<div class="col">
+<a class="movie-poster-card" href="booking.html?movie=Avatar">
+<img src="https://image.tmdb.org/t/p/w500/kyeqWdyUXW608qlYkRqosgbbJyK.jpg" alt="Avatar poster" loading="lazy">
+<h3>Avatar</h3>
+</a>
+</div>
+</div>
+</section>
+<section class="movie-category" data-category="action">
+<h2>Action Movies</h2>
+<div class="row row-cols-2 row-cols-sm-3 row-cols-lg-4 g-3 g-lg-4">
+<div class="col">
+<a class="movie-poster-card" href="booking.html?movie=Fast%20and%20Furious%20X">
+<img src="Add%20img/fast-and-furious-x.jpeg" alt="Fast and Furious X poster" loading="lazy">
+<h3>Fast and Furious X</h3>
+</a>
+</div>
+<div class="col">
+<a class="movie-poster-card" href="booking.html?movie=Spider-Man%3A%20No%20Way%20Home">
+<img src="Add%20img/spider-man.jpeg" alt="Spider-Man: No Way Home poster" loading="lazy">
+<h3>Spider-Man: No Way Home</h3>
+</a>
+</div>
+<div class="col">
+<a class="movie-poster-card" href="booking.html?movie=Mad%20Max%3A%20Fury%20Road">
+<img src="https://image.tmdb.org/t/p/w500/hA2ple9q4qnwxp3hKVNhroipsir.jpg" alt="Mad Max: Fury Road poster" loading="lazy">
+<h3>Mad Max: Fury Road</h3>
+</a>
+</div>
+<div class="col">
+<a class="movie-poster-card" href="booking.html?movie=John%20Wick">
+<img src="https://image.tmdb.org/t/p/w500/fZPSd91yGE9fCcCe6OoQr6E3Bev.jpg" alt="John Wick poster" loading="lazy">
+<h3>John Wick</h3>
+</a>
+</div>
+</div>
+</section>
+<section class="movie-category" data-category="comedy">
+<h2>Comedy Movies</h2>
+<div class="row row-cols-2 row-cols-sm-3 row-cols-lg-4 g-3 g-lg-4">
+<div class="col">
+<a class="movie-poster-card" href="booking.html?movie=Hera%20Pheri">
+<img src="img/Hera%20pheri.jpg" alt="Hera Pheri poster" loading="lazy">
+<h3>Hera Pheri</h3>
+</a>
+</div>
+<div class="col">
+<a class="movie-poster-card" href="booking.html?movie=La%20La%20Land">
+<img src="https://image.tmdb.org/t/p/w500/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg" alt="La La Land poster" loading="lazy">
+<h3>La La Land</h3>
+</a>
+</div>
+<div class="col">
+<a class="movie-poster-card" href="booking.html?movie=The%20Hangover">
+<img src="https://image.tmdb.org/t/p/w500/uluhlXubGu1VxU63X9VHCLWDAYP.jpg" alt="The Hangover poster" loading="lazy">
+<h3>The Hangover</h3>
+</a>
+</div>
+<div class="col">
+<a class="movie-poster-card" href="booking.html?movie=Home%20Alone">
+<img src="https://image.tmdb.org/t/p/w500/onTSipZ8R3bliBdKfPtsDuHTdlL.jpg" alt="Home Alone poster" loading="lazy">
+<h3>Home Alone</h3>
+</a>
+</div>
+</div>
+</section>
+<section class="movie-category" data-category="horror">
+<h2>Horror Movies</h2>
+<div class="row row-cols-2 row-cols-sm-3 row-cols-lg-4 g-3 g-lg-4">
+<div class="col">
+<a class="movie-poster-card" href="booking.html?movie=The%20Conjuring">
+<img src="https://image.tmdb.org/t/p/w500/wVYREutTvI2tmxr6ujrHT704wGF.jpg" alt="The Conjuring poster" loading="lazy">
+<h3>The Conjuring</h3>
+</a>
+</div>
+<div class="col">
+<a class="movie-poster-card" href="booking.html?movie=Get%20Out">
+<img src="https://image.tmdb.org/t/p/w500/tFXcEccSQMf3lfhfXKSU9iRBpa3.jpg" alt="Get Out poster" loading="lazy">
+<h3>Get Out</h3>
+</a>
+</div>
+<div class="col">
+<a class="movie-poster-card" href="booking.html?movie=Insidious">
+<img src="https://image.tmdb.org/t/p/w500/1egpmVXuXed58TH2UOnX1nATTrf.jpg" alt="Insidious poster" loading="lazy">
+<h3>Insidious</h3>
+</a>
+</div>
+<div class="col">
+<a class="movie-poster-card" href="booking.html?movie=Predator">
+<img src="Add%20img/Predator.jpeg" alt="Predator poster" loading="lazy">
+<h3>Predator</h3>
+</a>
+</div>
+</div>
+</section>
+</main>
+<footer>© 2026 Movie Mint · Demo booking only</footer>
+</body>
+</html>

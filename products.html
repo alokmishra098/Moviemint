@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Browse the Movie Mint movie catalog.">
+    <title>Explore Movies | Movie Mint</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/movie-categories.css">
+    <link rel="stylesheet" href="css/catalog.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+<header><a href="home.html" class="logo">Movie <span>Mint</span></a><nav id="navMenu"></nav></header>
+<main class="container catalog-page">
+    <div class="section-heading">
+        <div><span class="eyebrow">The marquee</span><h1>Explore Movies</h1><p>Choose a story and make it a movie night.</p></div>
+        <a class="text-link" href="search.html">Looking for something specific? Search →</a>
+    </div>
+    <div class="catalog-controls">
+        <label class="visually-hidden" for="catalogSearch">Search movies</label>
+        <input class="form-control" type="search" id="catalogSearch" placeholder="Search movies">
+        <label class="visually-hidden" for="catalogCategory">Filter by category</label>
+        <select class="form-select" id="catalogCategory">
+            <option value="all">All categories</option>
+            <option value="bollywood">Bollywood</option>
+            <option value="action">Action</option>
+            <option value="comedy">Comedy</option>
+            <option value="horror">Sci-fi &amp; horror</option>
+            <option value="drama">Drama</option>
+        </select>
+    </div>
+    <p id="catalogEmpty" class="empty-state" hidden>No movies match those filters. Try another title or category.</p>
+    <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-4 g-3 g-lg-4 catalog-grid" data-movie-catalog></div>
+    <p class="demo-notice">Movie availability, showtimes, and ticket prices are sample data for this frontend demo.</p>
+</main>
+<footer>© 2026 Movie Mint · Demo bookings only</footer>
+</body>
+</html>
